@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS">
+      <UniqueIdentifier>{cccdca1b-e8e8-470b-bbb7-99d676cefc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS\Game">
+      <UniqueIdentifier>{343b6916-15da-45fb-b4b1-59b29dc5cd30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS\Game\Computer">
+      <UniqueIdentifier>{80fe7766-aac1-410c-881a-90df7f32400d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS\Game\Player">
+      <UniqueIdentifier>{d80f3385-766a-4975-a454-f6971c8549a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS\Game\ArrayGame">
+      <UniqueIdentifier>{53707a5a-057d-4748-ac25-a1c8a82f9b36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GAMECLS\GameScreens">
+      <UniqueIdentifier>{411825a7-6f79-4dbc-ab69-953b0a72d63c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="X_O BY OOP CPP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClsComputer.h">
+      <Filter>Header Files\GAMECLS\Game\Computer</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsPlayer.h">
+      <Filter>Header Files\GAMECLS\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayGame.h">
+      <Filter>Header Files\GAMECLS\Game\ArrayGame</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsMainScreen.h">
+      <Filter>Header Files\GAMECLS\GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsScreen.h">
+      <Filter>Header Files\GAMECLS\GameScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="ClsGame.h">
+      <Filter>Header Files\GAMECLS\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
